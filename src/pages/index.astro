@@ -1,0 +1,28 @@
+---
+import DefaultLayout from '@layouts/DefaultLayout.astro'
+import Hero from '@components/Hero.astro'
+import Feature from '@components/Feature.astro'
+import FeaturedPosts from '@components/FeaturedPosts.astro'
+import FeaturedProjects from '@components/FeaturedProjects.astro'
+---
+
+<DefaultLayout title="Gamefulness" useTitleTemplate={false}>
+  <Hero />
+
+  <section class="mb-24">
+    <div class="container grid gap-6 md:grid-cols-3">
+      <Feature icon="lucide:waypoints" title="Discover community" level="h2">
+        Read about what other folks in the game design, game development, explorable, explainer, data storytelling, and games for transformation areas are doing.
+      </Feature>
+      <Feature icon="lucide:dices" title="Learn about games" level="h2">
+        You'll find deep dives, tools, code, modular design, videos, explorables, explainers, experiments, theory, frameworks, devlogs, examples, and more here. 
+      </Feature>
+      <Feature icon="lucide:heart-handshake" title="Make a difference" level="h2">
+        Learn how to design and create games that can make a positive difference in the world.
+      </Feature>
+    </div>
+  </section>
+
+  <!-- <FeaturedPosts />
+  <FeaturedProjects /> -->
+</DefaultLayout>
