@@ -38,7 +38,7 @@ export default defineThemeConfig({
       {
         type: 'link',
         label: 'GT EdTech Project',
-        href: 'https://sdt.gamefulness.org',
+        href: 'https://learning.gamefulness.org',
         external: true,
       },
       {
